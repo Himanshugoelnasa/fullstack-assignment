@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
-mongoose.connect('mongodb+srv://hiyaan:1234_abcd@cluster0.wbwip.mongodb.net/usersdb?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('put your db string here...')
 .then(() => {
     console.log('db connected');
 })
